@@ -52,6 +52,8 @@ class CISQueueTest {
         cisQueue.enqueue(2);
         assertEquals(4, cisQueue.size());
         assertEquals(4, cisQueue.dequeue());
+
+        //why this no work though oh NEVERMINDDD
         assertEquals(3, cisQueue.size());
         assertEquals(7, cisQueue.dequeue());
         assertEquals(2, cisQueue.size());
@@ -81,6 +83,7 @@ class CISQueueTest {
         assertFalse(cisQueue.isEmpty());
         cisQueue.dequeue();
         assertFalse(cisQueue.isEmpty());
+
         cisQueue.dequeue();
         assertTrue(cisQueue.isEmpty());
 

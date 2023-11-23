@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d22cb232-a235-4ab9-b80d-dd0a02180f7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS.13.02-Lab-2.3.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CS.13.02-Lab-2.3.2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CISQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CISQueue.java" afterDir="false" />
@@ -32,19 +33,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -53,7 +50,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CISQueueTest">
+  <component name="RunManager" selected="JUnit.CISQueueTest.testToString">
     <configuration name="CISQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS.13.02-Lab-2.3.2" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CISQueueTest" />
         <item itemvalue="JUnit.CISQueueTest.testToString" />
         <item itemvalue="JUnit.CISQueueTest.isEmpty" />
-        <item itemvalue="JUnit.CISQueueTest.dequeue" />
         <item itemvalue="JUnit.CISQueueTest.enqueue" />
+        <item itemvalue="JUnit.CISQueueTest.dequeue" />
+        <item itemvalue="JUnit.CISQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -134,5 +131,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
